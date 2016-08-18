@@ -1,0 +1,25 @@
+Github setup tutorial:
+
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+
+
+# install 
+
+sudo apt-get install git
+
+# configure
+
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+# create a repository
+
+git init Mytest
+
+# enter folder
+
+cd Mytest
+
+# create a README file to describe repository
+
+gedit README
